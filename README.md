@@ -15,12 +15,18 @@ Part 2: Data Flow Analysis - Call Graph Construction
 Your task : run  TestSootCallGraph  on  Example  (add both  TestSootCallGraph.java  and  Example.java  to your project source folder) to compare the precision and speed between CHA and PTA. In addition, you need to read the Soot code of CHA and PTA to understand how they work.
 
 
+
+
 Part 3: Program Instrumentation with Soot
 
 
 Your task :
 
 1)  Understand the code in  TestSootLogging.java  and run it. It will generate a file Example.jimple in a folder "sootOutput" under your project directory. Read and understand the Jimple code in Example.jimple
+
 2)  In the main method of TestSootLogging, comment the statement Options.v().set_output_format(1); and run again. It will generate a Java class file Example.class in "sootOutput". Run java Example to see the output. 
+
+![Screen Shot 2021-03-18 at 1 01 51 PM](https://user-images.githubusercontent.com/61093335/111674803-6a45fa00-87ea-11eb-8cb2-a18b8e703f6d.png)
+
 
 Your task : write code to instrument every field access in  HelloThread  to print out the access information. For example, a typical execution of the instrumented  HelloThread  will print:
