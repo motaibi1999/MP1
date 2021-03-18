@@ -7,7 +7,21 @@ Your task : given a method  m  and a statement  s , to find all the statements i
 
 Answer: 
 
-![Screen Shot 2021-03-18 at 11 46 10 AM](https://user-images.githubusercontent.com/61093335/111664315-a758bf00-87df-11eb-829d-0bed8089c74d.png)
+The DoAnalysis applied works correctly compared to manually comparing the results from the code with my work. The GCD file was correct and also I created an additional and simpler test class called Sum. 
+
+
+![Screen Shot 2021-03-18 at 3 26 29 PM](https://user-images.githubusercontent.com/61093335/111693236-615f2380-87fe-11eb-8d2d-afe6764210dd.png)
+
+![Screen Shot 2021-03-18 at 3 26 41 PM](https://user-images.githubusercontent.com/61093335/111693257-658b4100-87fe-11eb-9129-75e3faa51b8d.png)
+
+Sum.java is a replication of the pseudocode we had in our class and knowing for sure that the return statement is dominated by steps 1,2,3 and 6(itself), the output from TestDominatorFinder.java outputs the same result. 
+
+![Screen Shot 2021-03-18 at 3 21 53 PM](https://user-images.githubusercontent.com/61093335/111693486-ae42fa00-87fe-11eb-8e81-3586161f7dd1.png)
+
+We also know that step 1 is only dominated by itself which is further proved by this screenshot. 
+
+![Screen Shot 2021-03-18 at 3 22 05 PM](https://user-images.githubusercontent.com/61093335/111693560-c155ca00-87fe-11eb-896b-d50771f4d5cc.png)
+
 
 
 Part 2: Data Flow Analysis - Call Graph Construction
