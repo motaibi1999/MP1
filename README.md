@@ -37,7 +37,9 @@ PTA Running:
 ![Screen Shot 2021-03-18 at 1 47 55 PM](https://user-images.githubusercontent.com/61093335/111680819-995f6a00-87f0-11eb-9355-675049a46d90.png)
 
 
+Conclusion: 
 
+CHA is not very precise class hierarchy analysis that at call o.f() identifies the type of o and all its subtypes, and returns all the methods f() defined in these types. This is shown by the fact that it expanded 16
 
 Part 3: Program Instrumentation with Soot
 
