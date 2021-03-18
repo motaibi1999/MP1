@@ -39,7 +39,7 @@ PTA Running:
 
 Conclusion: 
 
-CHA is not very precise class hierarchy analysis that at call o.f() identifies the type of o and all its subtypes, and returns all the methods f() defined in these types. This is shown by the fact that it expanded 16 edges when it ran. While PTA is more precise and proven by the 9 edges expanded, but PTA is not as simple as CHA as it needs to analyze the data flow in the whole program, and takes more time and memory than CHA. 
+CHA is not very precise class hierarchy analysis that at call o.f() identifies the type of o and all its subtypes, and returns all the methods f() defined in these types. This is shown by the fact that it expanded 16 edges when it ran. While PTA is more precise and proven by the 9 edges expanded, but PTA is not as simple as CHA as it needs to analyze the data flow in the whole program, and takes more time and memory than CHA. In simple words, PTA is more precise but slower than CHA. 
 
 Part 3: Program Instrumentation with Soot
 
