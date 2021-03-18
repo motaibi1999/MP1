@@ -28,6 +28,12 @@ Part 2: Data Flow Analysis - Call Graph Construction
 
 Your task : run  TestSootCallGraph  on  Example  (add both  TestSootCallGraph.java  and  Example.java  to your project source folder) to compare the precision and speed between CHA and PTA. In addition, you need to read the Soot code of CHA and PTA to understand how they work.
 
+
+I had to uncomment the following to run each of CHA and PTA 
+
+![Screen Shot 2021-03-18 at 3 46 41 PM](https://user-images.githubusercontent.com/61093335/111695508-2f02f580-8801-11eb-98fc-72cf6c135f95.png)
+
+
 CHA Running:
 
 ![Screen Shot 2021-03-18 at 1 47 33 PM](https://user-images.githubusercontent.com/61093335/111680790-92385c00-87f0-11eb-81f1-a790931aa113.png)
