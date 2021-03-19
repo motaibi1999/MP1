@@ -39,9 +39,9 @@ public class Example {
 
     public static void main(String[] args) {
         Animal animal = selectAnimal();
-        System.out.println('calling selectAnimals');
+        System.out.println("calling selectAnimals");
         animal.saySomething();
-        System.out.println('calling saySomething');
+        System.out.println("calling saySomething");
         
     }
 }
