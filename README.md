@@ -32,8 +32,9 @@ Running with no CHA or PTA:
 
 ![Screen Shot 2021-03-19 at 9 50 52 AM](https://user-images.githubusercontent.com/61093335/111799601-2b22b200-8899-11eb-8dbe-6294baf8dd10.png)
 
-Number of edges: 12
-Speed: 7 seconds
+1. Number of edges: 12
+
+2. Speed: 7 seconds
 
 I had to uncomment the following to run each of CHA and PTA 
 
@@ -44,15 +45,16 @@ CHA Running:
 
 ![Screen Shot 2021-03-19 at 10 00 32 AM](https://user-images.githubusercontent.com/61093335/111800765-47731e80-889a-11eb-890e-a031b385a5f8.png)
 
-Number of edges: 12
-Speed: 3 seconds
+1. Number of edges: 12
+2. Speed: 3 seconds
 
 PTA Running:
 
 ![Screen Shot 2021-03-19 at 10 02 39 AM](https://user-images.githubusercontent.com/61093335/111800780-4a6e0f00-889a-11eb-9013-4c0eef4d968f.png)
 
-Number of edges: 7
-Speed: 3 seconds
+1. Number of edges: 7
+
+2. Speed: 3 seconds
 
 
 Conclusion: 
