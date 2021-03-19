@@ -68,6 +68,9 @@ Your task :
 
 1)  Understand the code in  TestSootLogging.java  and run it. It will generate a file Example.jimple in a folder "sootOutput" under your project directory. Read and understand the Jimple code in Example.jimple
 
+![Screen Shot 2021-03-19 at 10 09 13 AM](https://user-images.githubusercontent.com/61093335/111801702-2fe86580-889b-11eb-846e-b406fdcbdf2e.png)
+
+
 2)  In the main method of TestSootLogging, comment the statement Options.v().set_output_format(1); and run again. It will generate a Java class file Example.class in "sootOutput". Run java Example to see the output. 
 
 ![Screen Shot 2021-03-18 at 1 01 51 PM](https://user-images.githubusercontent.com/61093335/111674803-6a45fa00-87ea-11eb-8cb2-a18b8e703f6d.png)
