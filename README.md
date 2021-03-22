@@ -1,6 +1,8 @@
 # MP1
 SE4367 001 - MP1
 
+Contributor: Mohammed Alotaibi - MIA170030
+
 Part 1: Control Flow Analysis - Finding Dominators
 
 Your task : given a method  m  and a statement  s , to find all the statements in  m  that dominate  s. You are provided with sample code  TestDominatorFinder.java, DominatorFinder.java  and a test program  GCD.java  that computes the greatest common divisor of two integers.  TestDominatorFinder  first uses Soot to build a control flow graph for each method, and constructs a object for each control flow graph. For each statement, it then computes its dominators via the object and prints them out.
