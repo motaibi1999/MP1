@@ -69,4 +69,7 @@ Your task :
 ![Screen Shot 2021-03-18 at 1 01 51 PM](https://user-images.githubusercontent.com/61093335/111674803-6a45fa00-87ea-11eb-8cb2-a18b8e703f6d.png)
 
 
-Your task : write code to instrument every field access in  HelloThread  to print out the access information. For example, a typical execution of the instrumented  HelloThread  will print:
+Your task : You are also provided with a sample code  TestSootLoggingHeap.java  that has implemented all the other functions excepts the instrumentation. Ideally you only need to write less than ten lines of code in the method internalTransform  below:
+
+![Screen Shot 2021-03-22 at 12 48 40 PM](https://user-images.githubusercontent.com/61093335/112034932-09316580-8b0d-11eb-8b40-56de619fa903.png)
+
