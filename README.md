@@ -28,13 +28,6 @@ Part 2: Data Flow Analysis - Call Graph Construction
 
 Your task : run  TestSootCallGraph  on  Example  (add both  TestSootCallGraph.java  and  Example.java  to your project source folder) to compare the precision and speed between CHA and PTA. In addition, you need to read the Soot code of CHA and PTA to understand how they work.
 
-Running with no CHA or PTA: 
-
-![Screen Shot 2021-03-19 at 9 50 52 AM](https://user-images.githubusercontent.com/61093335/111799601-2b22b200-8899-11eb-8dbe-6294baf8dd10.png)
-
-1. Number of edges: 12
-
-2. Speed: 7 seconds
 
 I had to uncomment the following to run each of CHA and PTA 
 
@@ -59,7 +52,7 @@ PTA Running:
 
 Conclusion: 
 
-CHA is not very precise class hierarchy analysis that at call o.f() identifies the type of o and all its subtypes, and returns all the methods f() defined in these types. This is shown by the fact that it expanded 16 edges when it ran. While PTA is more precise and proven by the 9 edges expanded, but PTA is not as simple as CHA as it needs to analyze the data flow in the whole program, and takes more time and memory than CHA. In simple words, PTA is more precise but slower than CHA. 
+CHA is not very precise class hierarchy analysis that at call o.f() identifies the type of o and all its subtypes, and returns all the methods f() defined in these types. This is shown by the fact that it expanded 12 edges when it ran. While PTA is more precise and proven by the 9 edges expanded, but PTA is not as simple as CHA as it needs to analyze the data flow in the whole program, and takes more time and memory than CHA. In simple words, PTA is more precise but slower than CHA. 
 
 Part 3: Program Instrumentation with Soot
 
