@@ -68,7 +68,19 @@ public class TestSootLoggingHeap extends BodyTransformer {
 		    while(it.hasNext()){
 		    	Stmt stmt = (Stmt)it.next();
 		    	if (stmt.containsFieldRef()) {
-		    		//your code starts here
+		    		
+			    int isStatic = (stmt.getFieldRef().getClass().getName().equals("soot.jimple.StaticFieldRef"))? 1 : 0;
+			    String subClassName = stmt.getDefBoxes().get(0).getValue().getClass().getName();
+			    int isWrite = (subClassName.equals("soot.jimple.StaticFieldRef") || subClassName.equals("soot.jimple.internal.JInstanceFieldRef")) ? 1 : 0;
+			    LinkedList<Value> args = new LinkedList<>();
+			    args.add(StringConstant.v(Thread.currentThread().toString()));
+			    args.add(StringConstant.v(stmt.getFieldRef().getField().toString()));
+			    args.add(IntConstant.v(isStatic));
+			    args.add(IntConstant.v(isWrite));
+			    InvokeExpr printExpr = Jimple.v().newStaticInvokeExpr(logFieldAccMethod, args);
+			    InvokeStmt invokeStmt = Jimple.v().newInvokeStmt(printExpr);
+			    b.getUnits().insertBefore(invokeStmt,stmt);
+                    
 		    	}
 		    }
 		}
